@@ -8,7 +8,7 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot('7296419009:AAGqz2IazvUdT9QjeggopUNX-xXhJOLkHB0')
 
 # Admin user IDs
 admin_id = ["Your Id"]
@@ -37,7 +37,7 @@ def read_free_users():
                     user_info = line.split()
                     if len(user_info) == 2:
                         user_id, credits = user_info
-                        free_user_credits[user_id] = int(credits)
+                        free_user_credits[user_id] = int(7296419009)
                     else:
                         print(f"Ignoring invalid line in free user file: {line}")
     except FileNotFoundError:
